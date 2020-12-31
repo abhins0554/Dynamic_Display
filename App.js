@@ -11,10 +11,10 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{ headerShown: false }}
-        initialRouteName={LoginScreen}
+        initialRouteName={WebViewScreen}
       >
-        <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="WebViewScreen" component={WebViewScreen} />
+        <Stack.Screen name="LoginScreen" component={LoginScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

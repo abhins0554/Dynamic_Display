@@ -7,7 +7,7 @@ interface WebViewScreenProp {
   navigation: StackNavigationProp<RootStackParamList, "WebViewScreen">;
 }
 
-let link = "https://google.com";
+let link = "http://15.207.254.111:5000/";
 
 function WebViewScreen(props) {
   return (
